@@ -4,9 +4,9 @@ int motorR = 10;
 int coilL = A0;
 int coilR = A2;
 
-int baseSpeed = 140;     // forward speed
-float Kp = 0.2;          // steering strength
-int tolerance = 15;      // ignore small noise
+int baseSpeed = 120;     // forward speed
+float Kp = 0.8;          // steering strength
+int tolerance = 150;      // ignore small noise
 
 void setup() {
   pinMode(motorL, OUTPUT);
