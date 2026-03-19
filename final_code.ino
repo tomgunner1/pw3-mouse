@@ -4,7 +4,7 @@ int motorR = 10;
 int coilL = A0;
 int coilR = A2;
 
-int baseSpeed = 140;     // forward speed
+int baseSpeed = 150;     // forward speed
 float Kp = 0.7;          // steering strength
 int tolerance = 150;      // ignore small noise
 
